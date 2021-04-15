@@ -1,0 +1,53 @@
+.nav-item{
+    transition: color .6s;
+}
+.nav-item:hover{
+    color: lightgray;
+}
+.navbar ul li:last-child, .unique-card-btn, .view-all-btn, .submit-btn{
+    transition: margin-top .4s;
+}
+.navbar ul li:last-child:hover, .unique-card-btn:hover, .view-all-btn:hover, .submit-btn:hover{
+    margin-top: 10px;
+}
+.podcast-btn{
+    cursor: pointer;
+    transition: opacity .4s;
+}
+.podcast-btn:hover{
+    opacity: .5;
+}
+.card{
+    transition: box-shadow .6s;
+}
+.card:hover{
+    box-shadow: none;
+}
+.card-title{
+    cursor: pointer;
+    transition: opacity .4s;
+}
+.card-title:hover{
+    opacity: 0.6;
+}
+.card-img{
+    transition: transform .4s;
+}
+.card-img:hover{
+    transform: scale(1.1,1.1);
+}
+.tag{
+    cursor: pointer;
+    transition: color .6s, opacity .6s;
+}
+.tag:hover{
+    opacity: 1;
+    color: black;
+}
+.icon, .list-container > ul > li{
+    transition: color .4s;
+    cursor: pointer;
+}
+.icon:hover, .list-container > ul > li:hover{
+    color: grey;
+}
